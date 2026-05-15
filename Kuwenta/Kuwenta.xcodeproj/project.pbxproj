@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 70;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB00000000000000000000A1 /* KuwentaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF00000000000000000000A1 /* KuwentaApp.swift */; };
+		BB00000000000000000000A2 /* PersistentCloudKitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF00000000000000000000A2 /* PersistentCloudKitController.swift */; };
+		BB00000000000000000000A3 /* CategorySeeder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF00000000000000000000A3 /* CategorySeeder.swift */; };
+		BB00000000000000000000A4 /* TransactionRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF00000000000000000000A4 /* TransactionRepository.swift */; };
+		BB00000000000000000000A5 /* CategoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF00000000000000000000A5 /* CategoryStore.swift */; };
+		BB00000000000000000000A6 /* KuwentaColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF00000000000000000000A6 /* KuwentaColors.swift */; };
+		BB00000000000000000000A7 /* KuwentaTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF00000000000000000000A7 /* KuwentaTypography.swift */; };
+		BB00000000000000000000A8 /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF00000000000000000000A8 /* CurrencyFormatter.swift */; };
+		BB00000000000000000000A9 /* MonthHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF00000000000000000000A9 /* MonthHelpers.swift */; };
+		BB00000000000000000000AA /* PreviewSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF00000000000000000000AA /* PreviewSupport.swift */; };
+		BB00000000000000000000AB /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF00000000000000000000AB /* RootView.swift */; };
+		BB00000000000000000000AC /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF00000000000000000000AC /* OnboardingViewModel.swift */; };
+		BB00000000000000000000AD /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF00000000000000000000AD /* OnboardingView.swift */; };
+		BB00000000000000000000AE /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF00000000000000000000AE /* DashboardViewModel.swift */; };
+		BB00000000000000000000AF /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF00000000000000000000AF /* DashboardView.swift */; };
+		BB00000000000000000000B0 /* PeraSaBulsaCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF00000000000000000000B0 /* PeraSaBulsaCard.swift */; };
+		BB00000000000000000000B1 /* CategoryChipStrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF00000000000000000000B1 /* CategoryChipStrip.swift */; };
+		BB00000000000000000000B2 /* TransactionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF00000000000000000000B2 /* TransactionsViewModel.swift */; };
+		BB00000000000000000000B3 /* TransactionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF00000000000000000000B3 /* TransactionListView.swift */; };
+		BB00000000000000000000B4 /* TransactionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF00000000000000000000B4 /* TransactionRowView.swift */; };
+		BB00000000000000000000B5 /* AddTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF00000000000000000000B5 /* AddTransactionView.swift */; };
+		BB00000000000000000000B6 /* CategoryPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF00000000000000000000B6 /* CategoryPickerView.swift */; };
+		BB00000000000000000000B7 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF00000000000000000000B7 /* SettingsView.swift */; };
+		BB00000000000000000000B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF00000000000000000000B8 /* Assets.xcassets */; };
+		BB00000000000000000000B9 /* Kuwenta.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF00000000000000000000B9 /* Kuwenta.xcdatamodeld */; };
+		BB00000000000000000000BA /* PersistenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF00000000000000000000BA /* PersistenceTests.swift */; };
+		BB00000000000000000000BB /* KuwentaCore in Frameworks */ = {isa = PBXBuildFile; productRef = AB00000000000000000000A2 /* KuwentaCore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF00000000000000000000A1 /* KuwentaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KuwentaApp.swift; sourceTree = "<group>"; };
+		FF00000000000000000000A2 /* PersistentCloudKitController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentCloudKitController.swift; sourceTree = "<group>"; };
+		FF00000000000000000000A3 /* CategorySeeder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySeeder.swift; sourceTree = "<group>"; };
+		FF00000000000000000000A4 /* TransactionRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRepository.swift; sourceTree = "<group>"; };
+		FF00000000000000000000A5 /* CategoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryStore.swift; sourceTree = "<group>"; };
+		FF00000000000000000000A6 /* KuwentaColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KuwentaColors.swift; sourceTree = "<group>"; };
+		FF00000000000000000000A7 /* KuwentaTypography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KuwentaTypography.swift; sourceTree = "<group>"; };
+		FF00000000000000000000A8 /* CurrencyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
+		FF00000000000000000000A9 /* MonthHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthHelpers.swift; sourceTree = "<group>"; };
+		FF00000000000000000000AA /* PreviewSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewSupport.swift; sourceTree = "<group>"; };
+		FF00000000000000000000AB /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		FF00000000000000000000AC /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		FF00000000000000000000AD /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		FF00000000000000000000AE /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		FF00000000000000000000AF /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		FF00000000000000000000B0 /* PeraSaBulsaCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeraSaBulsaCard.swift; sourceTree = "<group>"; };
+		FF00000000000000000000B1 /* CategoryChipStrip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryChipStrip.swift; sourceTree = "<group>"; };
+		FF00000000000000000000B2 /* TransactionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewModel.swift; sourceTree = "<group>"; };
+		FF00000000000000000000B3 /* TransactionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListView.swift; sourceTree = "<group>"; };
+		FF00000000000000000000B4 /* TransactionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRowView.swift; sourceTree = "<group>"; };
+		FF00000000000000000000B5 /* AddTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionView.swift; sourceTree = "<group>"; };
+		FF00000000000000000000B6 /* CategoryPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryPickerView.swift; sourceTree = "<group>"; };
+		FF00000000000000000000B7 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		FF00000000000000000000B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF00000000000000000000BA /* PersistenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceTests.swift; sourceTree = "<group>"; };
+		FF00000000000000000000BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF00000000000000000000BD /* Kuwenta.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Kuwenta.entitlements; sourceTree = "<group>"; };
+		FF00000000000000000000BE /* Kuwenta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kuwenta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF00000000000000000000BF /* KuwentaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KuwentaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF00000000000000000000C1 /* Kuwenta.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kuwenta.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD00000000000000000000A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB00000000000000000000BB /* KuwentaCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD00000000000000000000A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC00000000000000000000A1 = {
+			isa = PBXGroup;
+			children = (
+				CC00000000000000000000A2 /* Kuwenta */,
+				CC00000000000000000000AF /* KuwentaTests */,
+				CC00000000000000000000B0 /* Products */,
+				CC00000000000000000000B1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC00000000000000000000A2 /* Kuwenta */ = {
+			isa = PBXGroup;
+			children = (
+				CC00000000000000000000A3 /* App */,
+				CC00000000000000000000A4 /* Core */,
+				CC00000000000000000000A7 /* Features */,
+				CC00000000000000000000AD /* Support */,
+				CC00000000000000000000AE /* Resources */,
+			);
+			path = Kuwenta;
+			sourceTree = "<group>";
+		};
+		CC00000000000000000000A3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FF00000000000000000000A1 /* KuwentaApp.swift */,
+				FF00000000000000000000BC /* Info.plist */,
+				FF00000000000000000000BD /* Kuwenta.entitlements */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CC00000000000000000000A4 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CC00000000000000000000A5 /* Persistence */,
+				CC00000000000000000000A6 /* DesignSystem */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		CC00000000000000000000A5 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				FF00000000000000000000A2 /* PersistentCloudKitController.swift */,
+				FF00000000000000000000A3 /* CategorySeeder.swift */,
+				FF00000000000000000000A4 /* TransactionRepository.swift */,
+				FF00000000000000000000A5 /* CategoryStore.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		CC00000000000000000000A6 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				FF00000000000000000000A6 /* KuwentaColors.swift */,
+				FF00000000000000000000A7 /* KuwentaTypography.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		CC00000000000000000000A7 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				CC00000000000000000000AC /* Root */,
+				CC00000000000000000000A8 /* Onboarding */,
+				CC00000000000000000000A9 /* Dashboard */,
+				CC00000000000000000000AA /* Transactions */,
+				CC00000000000000000000AB /* Settings */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		CC00000000000000000000A8 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				FF00000000000000000000AC /* OnboardingViewModel.swift */,
+				FF00000000000000000000AD /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		CC00000000000000000000A9 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				FF00000000000000000000AE /* DashboardViewModel.swift */,
+				FF00000000000000000000AF /* DashboardView.swift */,
+				FF00000000000000000000B0 /* PeraSaBulsaCard.swift */,
+				FF00000000000000000000B1 /* CategoryChipStrip.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		CC00000000000000000000AA /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				FF00000000000000000000B2 /* TransactionsViewModel.swift */,
+				FF00000000000000000000B3 /* TransactionListView.swift */,
+				FF00000000000000000000B4 /* TransactionRowView.swift */,
+				FF00000000000000000000B5 /* AddTransactionView.swift */,
+				FF00000000000000000000B6 /* CategoryPickerView.swift */,
+			);
+			path = Transactions;
+			sourceTree = "<group>";
+		};
+		CC00000000000000000000AB /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				FF00000000000000000000B7 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		CC00000000000000000000AC /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				FF00000000000000000000AB /* RootView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		CC00000000000000000000AD /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				FF00000000000000000000A8 /* CurrencyFormatter.swift */,
+				FF00000000000000000000A9 /* MonthHelpers.swift */,
+				FF00000000000000000000AA /* PreviewSupport.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		CC00000000000000000000AE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FF00000000000000000000B8 /* Assets.xcassets */,
+				FF00000000000000000000B9 /* Kuwenta.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CC00000000000000000000AF /* KuwentaTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF00000000000000000000BA /* PersistenceTests.swift */,
+			);
+			path = KuwentaTests;
+			sourceTree = "<group>";
+		};
+		CC00000000000000000000B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF00000000000000000000BE /* Kuwenta.app */,
+				FF00000000000000000000BF /* KuwentaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC00000000000000000000B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE00000000000000000000A1 /* Kuwenta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC00000000000000000000A1 /* Build configuration list for PBXNativeTarget "Kuwenta" */;
+			buildPhases = (
+				DD00000000000000000000A1 /* Sources */,
+				DD00000000000000000000A2 /* Frameworks */,
+				DD00000000000000000000A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kuwenta;
+			packageProductDependencies = (
+				AB00000000000000000000A2 /* KuwentaCore */,
+			);
+			productName = Kuwenta;
+			productReference = FF00000000000000000000BE /* Kuwenta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE00000000000000000000A2 /* KuwentaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC00000000000000000000A2 /* Build configuration list for PBXNativeTarget "KuwentaTests" */;
+			buildPhases = (
+				DD00000000000000000000A4 /* Sources */,
+				DD00000000000000000000A5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE00000000000000000000A1 /* PBXTargetDependency */,
+			);
+			name = KuwentaTests;
+			packageProductDependencies = (
+			);
+			productName = KuwentaTests;
+			productReference = FF00000000000000000000BF /* KuwentaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF00000000000000000000A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					EE00000000000000000000A1 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					EE00000000000000000000A2 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = EE00000000000000000000A1;
+					};
+				};
+			};
+			buildConfigurationList = BC00000000000000000000A3 /* Build configuration list for PBXProject "Kuwenta" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC00000000000000000000A1;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				AB00000000000000000000A1 /* XCLocalSwiftPackageReference "KuwentaCore" */,
+			);
+			productRefGroup = CC00000000000000000000B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE00000000000000000000A1 /* Kuwenta */,
+				EE00000000000000000000A2 /* KuwentaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD00000000000000000000A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB00000000000000000000B8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD00000000000000000000A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB00000000000000000000A1 /* KuwentaApp.swift in Sources */,
+				BB00000000000000000000A2 /* PersistentCloudKitController.swift in Sources */,
+				BB00000000000000000000A3 /* CategorySeeder.swift in Sources */,
+				BB00000000000000000000A4 /* TransactionRepository.swift in Sources */,
+				BB00000000000000000000A5 /* CategoryStore.swift in Sources */,
+				BB00000000000000000000A6 /* KuwentaColors.swift in Sources */,
+				BB00000000000000000000A7 /* KuwentaTypography.swift in Sources */,
+				BB00000000000000000000A8 /* CurrencyFormatter.swift in Sources */,
+				BB00000000000000000000A9 /* MonthHelpers.swift in Sources */,
+				BB00000000000000000000AA /* PreviewSupport.swift in Sources */,
+				BB00000000000000000000AB /* RootView.swift in Sources */,
+				BB00000000000000000000AC /* OnboardingViewModel.swift in Sources */,
+				BB00000000000000000000AD /* OnboardingView.swift in Sources */,
+				BB00000000000000000000AE /* DashboardViewModel.swift in Sources */,
+				BB00000000000000000000AF /* DashboardView.swift in Sources */,
+				BB00000000000000000000B0 /* PeraSaBulsaCard.swift in Sources */,
+				BB00000000000000000000B1 /* CategoryChipStrip.swift in Sources */,
+				BB00000000000000000000B2 /* TransactionsViewModel.swift in Sources */,
+				BB00000000000000000000B3 /* TransactionListView.swift in Sources */,
+				BB00000000000000000000B4 /* TransactionRowView.swift in Sources */,
+				BB00000000000000000000B5 /* AddTransactionView.swift in Sources */,
+				BB00000000000000000000B6 /* CategoryPickerView.swift in Sources */,
+				BB00000000000000000000B7 /* SettingsView.swift in Sources */,
+				BB00000000000000000000B9 /* Kuwenta.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD00000000000000000000A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB00000000000000000000BA /* PersistenceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE00000000000000000000A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE00000000000000000000A1 /* Kuwenta */;
+			targetProxy = CD00000000000000000000A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXContainerItemProxy section */
+		CD00000000000000000000A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF00000000000000000000A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE00000000000000000000A1;
+			remoteInfo = Kuwenta;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin XCBuildConfiguration section */
+		AA00000000000000000000A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = PrimaryPurple;
+				CODE_SIGN_ENTITLEMENTS = Kuwenta/App/Kuwenta.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Kuwenta/App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ph.kuwenta.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AA00000000000000000000A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = PrimaryPurple;
+				CODE_SIGN_ENTITLEMENTS = Kuwenta/App/Kuwenta.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Kuwenta/App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ph.kuwenta.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		AA00000000000000000000A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ph.kuwenta.app.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kuwenta.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kuwenta";
+			};
+			name = Debug;
+		};
+		AA00000000000000000000A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ph.kuwenta.app.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kuwenta.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kuwenta";
+			};
+			name = Release;
+		};
+		AA00000000000000000000A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA00000000000000000000A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC00000000000000000000A1 /* Build configuration list for PBXNativeTarget "Kuwenta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA00000000000000000000A1 /* Debug */,
+				AA00000000000000000000A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC00000000000000000000A2 /* Build configuration list for PBXNativeTarget "KuwentaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA00000000000000000000A3 /* Debug */,
+				AA00000000000000000000A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC00000000000000000000A3 /* Build configuration list for PBXProject "Kuwenta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA00000000000000000000A5 /* Debug */,
+				AA00000000000000000000A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		AB00000000000000000000A1 /* XCLocalSwiftPackageReference "KuwentaCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = KuwentaCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AB00000000000000000000A2 /* KuwentaCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KuwentaCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		FF00000000000000000000B9 /* Kuwenta.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FF00000000000000000000C1 /* Kuwenta.xcdatamodel */,
+			);
+			currentVersion = FF00000000000000000000C1 /* Kuwenta.xcdatamodel */;
+			path = Kuwenta.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EF00000000000000000000A1 /* Project object */;
+}
